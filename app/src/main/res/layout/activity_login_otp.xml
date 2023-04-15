@@ -70,6 +70,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:text="Enter OTP No: "
         android:layout_gravity="center_vertical"
         android:letterSpacing="0.08"
@@ -87,6 +88,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/light_gray"
             android:hint="Otp"
             android:inputType="number"
             android:maxLength="6"
@@ -118,6 +121,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:layout_weight="10"
         android:gravity="center"
         android:text="Resent OTP in 30 sec"

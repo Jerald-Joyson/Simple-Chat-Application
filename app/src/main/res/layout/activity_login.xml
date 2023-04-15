@@ -70,6 +70,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:text="Enter Mobile No: "
         android:layout_gravity="center_vertical"
         android:letterSpacing="0.08"
@@ -92,6 +93,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textColorHint="@color/light_gray"
             android:padding="10dp"
             android:hint="Mobile"
             android:inputType="phone"
