@@ -52,6 +52,7 @@
             android:layout_toLeftOf="@id/search_user_btn"
             android:background="@drawable/edit_text_rounded_corner"
             android:elevation="4dp"
+            android:textColor="@color/black"
             android:hint="Username"
             android:textColorHint="@color/light_gray"
             android:padding="10dp" />
